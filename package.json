@@ -1,0 +1,21 @@
+{
+  "name": "do-not-use-me",
+  "version": "1.0.0",
+  "description": "Test scoped package on npm",
+  "main": "index.js",
+  "repository": {"url": "https://github.com/alai-arpas/do-not-use-me"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Andrea Lai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-stage-0": "^7.8.3",
+    "nodemon": "^2.0.12"
+  }
+}
